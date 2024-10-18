@@ -1,0 +1,51 @@
+.joke {
+  
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  background-color: #3f3f3f;
+  padding: 40px;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.info h1 {
+  text-align: center;
+}
+
+.info h2 {
+  color: #d4d4d4;
+}
+
+.interactions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.interactions > * {
+  margin: 0;
+}
+
+.button {
+  border-radius: 10px;
+}
+
+.interactions h3 {
+  color: #f38b8b;
+}
+
+.interactions svg {
+  cursor: pointer;
+}
+
+h4 span {
+  color: #f38b8b;
+
+}
